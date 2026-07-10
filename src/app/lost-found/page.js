@@ -63,7 +63,7 @@ export default function LostFoundPage() {
           title,
           description,
           type,
-          imageUrl: imageUrl || "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=500", // Fallback placeholder
+          imageUrl: imageUrl || "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=500", 
           createdBy: user.email,
         }),
       });
