@@ -86,7 +86,7 @@ export default function VolunteerPage() {
       {/* Header */}
       <div className="border-b border-gray-200 pb-4">
         <h1 className="text-3xl font-bold text-saylani-blue">Volunteer Registration</h1>
-        <p className="text-gray-500 text-sm">Join the Saylani force. Register yourself to manage and coordinate campus mega-events.</p>
+        <p className="text-gray-500 text-sm">Join the Saylani force. Register yourself to manage and coordinate campus Mega-Events.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
