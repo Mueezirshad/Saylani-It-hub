@@ -30,7 +30,6 @@ export default function VolunteerPage() {
     const parsedUser = JSON.parse(storedUser);
     setUser(parsedUser);
     
-    // Form mein default name user ka email prefix set kardete hain convenience k liye
     setName(parsedUser.name || "");
     
     fetchVolunteers();
