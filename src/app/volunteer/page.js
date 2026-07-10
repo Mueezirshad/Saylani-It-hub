@@ -151,7 +151,7 @@ export default function VolunteerPage() {
           <h2 className="text-xl font-bold text-gray-800">Current Volunteers Roster</h2>
 
           {loading ? (
-            <div className="text-gray-500 text-sm">Loading squad roster...</div>
+            <div className="text-gray-500 text-sm">Loading Squad Roster...</div>
           ) : volunteers.length === 0 ? (
             <div className="bg-gray-50 text-center p-8 rounded border border-gray-200 text-gray-500 text-sm">
               No volunteers registered yet. Be the first hero!
